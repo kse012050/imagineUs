@@ -102,7 +102,7 @@
 
 /* 서브페이지 - 솔루션 */
 [class ^= 'solution'] .subTitle{background-image: url('../images/solution_titllBG.png');}
-[class ^= 'solution'] .contentsArea h3{text-align: center; margin-bottom: 80px;}
+[class ^= 'solution'] .contentsArea h3{text-align: center;}
 [class ^= 'solution'] .contentsArea h3.m_case01{margin-bottom: 80px;}
 [class ^= 'solution'] .contentsArea h3.m_case02{margin-bottom: 50px;}
 [class ^= 'solution'] .contentsArea h3 + p{text-align: center;}
@@ -202,7 +202,7 @@
 .solution_educationArea .contentsBox .boxTop{padding: 60px 40px 45px;}
 .solution_educationArea .contentsBox .boxTop h4{margin-bottom: 60px;}
 .solution_educationArea .contentsBox .boxTop p{letter-spacing: -1px;}
-.solution_educationArea .contentsBox .boxTop p:first-of-type{padding-top: 25px; background: url('../images/solution_education_quoteIcon.png') no-repeat left top;}
+.solution_educationArea .contentsBox .boxTop p:first-of-type{padding-top: 25px; background: url('../images/quoteIcon01.png') no-repeat left top;}
 .solution_educationArea .contentsBox .boxBottom{padding: 40px; border-top: 1px solid #e0e0e0;}
 .solution_educationArea .contentsBox .boxBottom strong{font-size: 22px; font-weight: 700;}
 .solution_educationArea .contentsBox .boxBottom p{font-size: 21px;}
