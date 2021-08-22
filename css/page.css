@@ -102,6 +102,7 @@
 
 /* 서브페이지 - 솔루션 */
 [class ^= 'solution'] .subTitle{background-image: url('../images/solution_titllBG.png');}
+[class ^= 'solution'] .contentsArea h3{text-align: center; margin-bottom: 80px;}
 
 .solutionArea .contentsArea{text-align: center;}
 .solutionArea .contentsArea strong{display: block; margin-bottom: 40px;}
@@ -135,7 +136,6 @@
 
 /* 서브페이지 - 솔루션 - 리포트*/
 .solution_reportArea .contentsArea a{color: black;}
-.solution_reportArea .contentsArea h3{text-align: center; margin-bottom: 80px;}
 .solution_reportArea .contentsArea ul::after{content: ''; display: block; clear: both;}
 .solution_reportArea .contentsArea ul{margin-bottom: 100px;}
 .solution_reportArea .contentsArea ul li{float: left; width: 28.53%;}
@@ -153,6 +153,20 @@
 .solution_reportArea .contentsArea .boardList .pageLink:nth-of-type(3){background-image: url('../images/boardNextIcon01.png');}
 .solution_reportArea .contentsArea .boardList .listLink:nth-of-type(4){background-image: url('../images/boardNextIcon02.png');}
 .solution_reportArea .contentsArea .boardList ol{display: flex; justify-content: center; align-items: center; margin: 0 30px;}
-/* .solution_reportArea .contentsArea .boardList ol li:not(:last-child){margin-right: 20px;} */
 .solution_reportArea .contentsArea .boardList ol li a{display: block; font-family: 'Poppins', sans-serif;  width: 37px; font-size: 22px; line-height: 37px; text-align: center; border-radius: 100%;}
 .solution_reportArea .contentsArea .boardList ol li a.active , .solution_reportArea .contentsArea .boardList ol li a:hover{background-color: #39bca5; color: white;}
+
+
+/* 서브페이지 - 솔루션 - 리포트 상세*/
+.solution_report_datailArea .contentsArea{}
+.solution_report_datailArea .contentsArea > div.board_contents{padding-bottom:50px;}
+.solution_report_datailArea .contentsArea > div.board_contents .title{font-size: 30px; font-weight: 700; display: block; text-align: center; line-height: 150px; border-width: 1px 0; border-style: solid; border-color: #cccccc; margin-bottom: 50px;}
+.solution_report_datailArea .contentsArea > div.board_contents .imgBox{text-align: center;}
+.solution_report_datailArea .contentsArea > div.board_contents .imgBox:not(:last-child){margin-bottom: 90px;}
+.solution_report_datailArea .contentsArea > div.board_contents > *:not(.title){font-size: 21px; line-height: 28px; padding: 0 5%;}
+.solution_report_datailArea .contentsArea > div.board_contents > *:not(:last-child){margin-bottom: 30px;}
+.solution_report_datailArea .contentsArea > div.downloadArea{padding: 40px 2.5%; border-width: 1px 0 2px; border-style: solid; border-color: #cccccc 0 black; margin-bottom: 50px;}
+.solution_report_datailArea .contentsArea > div.downloadArea > *{font-size: 18px; color: #333333;}
+.solution_report_datailArea .contentsArea > div.downloadArea > a{display: inline-block; margin-left: 20px; position: relative;}
+.solution_report_datailArea .contentsArea > div.downloadArea > a::after{content: ''; position: absolute; left: 0; bottom: -7px; width: 100%; height: 1px; background-color: black;}
+.solution_report_datailArea .contentsArea .listLink{display: block; width: 280px; line-height: 70px; margin: 0 auto; font-size: 25px; font-weight: 700; color: white; text-align: center; background-color: #333333; border-radius: 5px;}
