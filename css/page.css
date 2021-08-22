@@ -101,7 +101,7 @@
 
 
 /* 서브페이지 - 솔루션 */
-.solutionArea .subTitle{background-image: url('../images/solution_titllBG.png');}
+[class ^= 'solution'] .subTitle{background-image: url('../images/solution_titllBG.png');}
 
 .solutionArea .contentsArea{text-align: center;}
 .solutionArea .contentsArea strong{display: block; margin-bottom: 40px;}
@@ -131,3 +131,28 @@
 .solutionArea .solution_orderList > ol li p{margin-bottom: 25px;}
 .solutionArea .solution_orderList > ol li a{width: 120px; line-height: 35px; border: 1px solid #b2b2b2; font-size: 15px; color: white; padding: 0 15px; box-sizing: border-box; display: flex; justify-content: space-between; align-items: center;}
 .solutionArea .solution_orderList > ol li a::after{content: ''; width: 18px; height: 9px; background: url('../images/linkIcon01.png') no-repeat center / cover; margin-left: 10px;}
+
+
+/* 서브페이지 - 솔루션 - 리포트*/
+.solution_reportArea .contentsArea a{color: black;}
+.solution_reportArea .contentsArea h3{text-align: center; margin-bottom: 80px;}
+.solution_reportArea .contentsArea ul::after{content: ''; display: block; clear: both;}
+.solution_reportArea .contentsArea ul{margin-bottom: 100px;}
+.solution_reportArea .contentsArea ul li{float: left; width: 28.53%;}
+.solution_reportArea .contentsArea ul li:not(:nth-child(3n)){margin-right: 7.205%;}
+.solution_reportArea .contentsArea ul li:not(:nth-child(-n + 3)){margin-top: 80px;}
+.solution_reportArea .contentsArea ul li .imgBox{max-height: 193px; overflow: hidden; margin-bottom: 15px;}
+.solution_reportArea .contentsArea ul li .imgBox img{width: 100%;}
+
+.solution_reportArea .contentsArea .boardList{display: flex; justify-content: center; align-items: center;}
+.solution_reportArea .contentsArea .boardList .listLink , .solution_reportArea .contentsArea .boardList .pageLink{text-indent: -9999px; height: 18px; margin: 0 5px; background-repeat: no-repeat; background-position: center; background-size: cover;}
+.solution_reportArea .contentsArea .boardList .listLink{width: 19px;}
+.solution_reportArea .contentsArea .boardList .pageLink{width: 11px;}
+.solution_reportArea .contentsArea .boardList .listLink:nth-of-type(1){background-image: url('../images/boardPrevIcon01.png');}
+.solution_reportArea .contentsArea .boardList .pageLink:nth-of-type(2){background-image: url('../images/boardPrevIcon02.png');}
+.solution_reportArea .contentsArea .boardList .pageLink:nth-of-type(3){background-image: url('../images/boardNextIcon01.png');}
+.solution_reportArea .contentsArea .boardList .listLink:nth-of-type(4){background-image: url('../images/boardNextIcon02.png');}
+.solution_reportArea .contentsArea .boardList ol{display: flex; justify-content: center; align-items: center; margin: 0 30px;}
+/* .solution_reportArea .contentsArea .boardList ol li:not(:last-child){margin-right: 20px;} */
+.solution_reportArea .contentsArea .boardList ol li a{display: block; font-family: 'Poppins', sans-serif;  width: 37px; font-size: 22px; line-height: 37px; text-align: center; border-radius: 100%;}
+.solution_reportArea .contentsArea .boardList ol li a.active , .solution_reportArea .contentsArea .boardList ol li a:hover{background-color: #39bca5; color: white;}
