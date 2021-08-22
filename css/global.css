@@ -1,0 +1,17 @@
+
+.f_case01{}
+
+.contactUsLink{display: none;}
+header{position: fixed; left: 0; top: 0; width: 100%; padding: 0 45px; box-sizing: border-box; display: flex; justify-content: space-between; align-items: center;}
+header h1{text-indent: -9999px;}
+header h1 a{background-repeat: no-repeat; background-position: center; background-size: cover;}
+header > div{display: flex;}
+header > div nav{margin-right: 35px;}
+header > div nav ul{display: flex;}
+header > div nav ul li a{padding: 0 50px; font-size: 22px; font-weight: bold; color: white; line-height: 110px;}
+header > div button{align-self: center; width: 27px; }
+header > div button span{display: block; width: 21px; height: 3px; background-color: white;}
+header > div button span:nth-child(1){margin-left: auto; margin-bottom: 10px;}
+
+.mainPage header h1{width: 89px; height: 99px;}
+.mainPage header h1 a{display: block; height: 100%; background-image:url('../images/logo01.png'); padding-top: 25px;}
