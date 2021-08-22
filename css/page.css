@@ -87,9 +87,22 @@
 /* 서브페이지 공통 */
 .subPage > section{padding-top: 110px;}
 .subPage .contentsArea.case01{padding: 100px 0;}
+
+.subPage .contentsArea h3{text-align: center;}
+.subPage .contentsArea h3.m_case01{margin-bottom: 80px;}
+.subPage .contentsArea h3.m_case02{margin-bottom: 50px;}
+.subPage .contentsArea h3 + p{text-align: center;}
+
+.listLink.case01{display: block; margin: 0 auto; font-size: 25px; font-weight: 700; color: white; text-align: center; background-color: #333333; border-radius: 5px;}
+
 /* 서브페이지 타이틀 */
 .subPage > section .subTitle{height: 360px; display: flex; flex-direction: column; justify-content: center; align-items: center; font-size: 46px; font-weight: 700; color: white; background-repeat: no-repeat; background-position: center; background-size: cover;}
 .subPage > section .subTitle mark{font-family: 'Poppins', sans-serif;  font-size: 22px; font-weight: 700; color: #86ffea; margin-bottom: 30px;}
+/* 서브페이지 타이틀 배경*/
+/* 솔루션 */
+[class ^= 'solution'] .subTitle{background-image: url('../images/solution_titllBG.png');}
+/* 기업소개 */
+[class ^= 'company'] .subTitle{background-image: url('../images/company_titllBG.png');}
 /* 서브페이지 페이저 */
 .subPage .subPager{padding: 15px 0; border-bottom: 1px solid rgba(0, 0, 0, 0.1);}
 .subPage .subPager ol{display: flex;}
@@ -99,13 +112,11 @@
 .subPage .subPager ol li:nth-child(2){display: flex; align-items: center;}
 .subPage .subPager ol li:nth-child(2)::after{content: ''; width: 12px; height: 7px; background: url('../images/pagaIocn02.png') no-repeat center / cover; margin-left: 15px;}
 
+/* 서브페이지 border box */
+.subPage .borderBox{border-width: 1px 1px 1px 10px; border-color: #d6d6d6 #d6d6d6 #d6d6d6 #39bca5; border-style: solid; box-sizing: border-box;}
+
 
 /* 서브페이지 - 솔루션 */
-[class ^= 'solution'] .subTitle{background-image: url('../images/solution_titllBG.png');}
-[class ^= 'solution'] .contentsArea h3{text-align: center;}
-[class ^= 'solution'] .contentsArea h3.m_case01{margin-bottom: 80px;}
-[class ^= 'solution'] .contentsArea h3.m_case02{margin-bottom: 50px;}
-[class ^= 'solution'] .contentsArea h3 + p{text-align: center;}
 
 .solutionArea .contentsArea{text-align: center;}
 .solutionArea .contentsArea strong{display: block; margin-bottom: 40px;}
@@ -172,7 +183,7 @@
 .solution_report_datailArea .contentsArea > div.downloadArea > *{font-size: 18px; color: #333333;}
 .solution_report_datailArea .contentsArea > div.downloadArea > a{display: inline-block; margin-left: 20px; position: relative;}
 .solution_report_datailArea .contentsArea > div.downloadArea > a::after{content: ''; position: absolute; left: 0; bottom: -7px; width: 100%; height: 1px; background-color: black;}
-.solution_report_datailArea .contentsArea .listLink{display: block; width: 280px; line-height: 70px; margin: 0 auto; font-size: 25px; font-weight: 700; color: white; text-align: center; background-color: #333333; border-radius: 5px;}
+.solution_report_datailArea .contentsArea .listLink.case01{width: 280px; line-height: 70px;}
 
 
 /* 서브페이지 - 솔루션 - 플랫폼*/
@@ -229,3 +240,52 @@
 .boxBottom ul:nth-of-type(2) li:nth-child(3) strong{background-image: url('../images/solution_education_icon03.png');}
 .boxBottom ul:nth-of-type(2) li p{height: 115px; display: flex; flex-direction: column; justify-content: center; align-items: center; border-top: 1px solid #dfdfdf; }
 .boxBottom ul:nth-of-type(2) li p[data-standard]::after{content: '(' attr(data-standard) '기준)'; display: block;}
+/* 솔루션 fin */
+
+
+/* 서브페이지 - 기업소개 */
+
+/* 서브페이지 - 기업소개 - 미션과 비전*/
+.company_missionArea .contentsArea > div:not(:last-child){margin-bottom: 100px;}
+.company_missionArea .contentsArea .visionArea::after{content: ''; display: block; clear: both;}
+.company_missionArea .contentsArea .visionArea > div{float: left; width: calc((100% - 20px) / 2); height: 180px; display: flex; align-items: center;}
+.company_missionArea .contentsArea .visionArea > div:nth-of-type(2n){margin-left: 20px;}
+.company_missionArea .contentsArea .visionArea > div strong{width: 300px; text-align: center; text-transform: uppercase; letter-spacing: 5px;}
+.company_missionArea .contentsArea .visionArea > div p{font-weight: 700;}
+
+/* 서브페이지 - 기업소개 - 미션과 비전 - CI*/
+.company_missionArea .contentsArea .CIArea > div:not(.designBox){float: left; width: calc((100% - 20px) / 2); margin-bottom: 50px;}
+.company_missionArea .contentsArea .CIArea > div:nth-of-type(2n){margin-left: 20px;}
+.company_missionArea .contentsArea .CIArea > div h4{font-size: 21px; font-weight: 400; margin-bottom: 20px;}
+
+.company_missionArea .contentsArea .CIArea .basicBox img{width: 100%;}
+
+.company_missionArea .contentsArea .CIArea .colorBox ul li::after{content: ''; display: block; clear: both;}
+.company_missionArea .contentsArea .CIArea .colorBox ul li{width: 100%; height: 104px;}
+.company_missionArea .contentsArea .CIArea .colorBox ul li:not(:last-child){margin-bottom: 30px;}
+.company_missionArea .contentsArea .CIArea .colorBox ul li div{float: left; height: 100%; display: flex;}
+.company_missionArea .contentsArea .CIArea .colorBox ul li div:nth-of-type(1){width: calc(100% - 130px); background-color: black;}
+.company_missionArea .contentsArea .CIArea .colorBox ul li div:nth-of-type(2){width: 130px; border: 1px solid black; box-sizing: border-box;}
+
+.company_missionArea .contentsArea .CIArea .designBox{clear: both;}
+.company_missionArea .contentsArea .CIArea .designBox ul{margin-bottom: 50px;}
+.company_missionArea .contentsArea .CIArea .designBox ul::after{content: ''; display: block; clear: both;}
+.company_missionArea .contentsArea .CIArea .designBox ul li{float: left; width: calc((100% - 40px) / 3);}
+.company_missionArea .contentsArea .CIArea .designBox ul li:not(:nth-child(3n)){margin-right: 20px;}
+.company_missionArea .contentsArea .CIArea .designBox ul li:not(:nth-child(-n + 3)){margin-top: 20px;}
+.company_missionArea .contentsArea .CIArea .designBox ul li img{width: 100%;}
+.company_missionArea .contentsArea .CIArea .designBox .listLink.case01{width: 380px; line-height: 70px;}
+
+/* 서브페이지 - 기업소개 - 미션과 비전 - 시설 안내*/
+.company_missionArea .contentsArea .facilityArea::after{content: ''; display: block; clear: both;}
+.company_missionArea .contentsArea .facilityArea > div{float: left; width: calc((100% - 20px) / 2); height: 315px; background-color: #eeeeee;}
+.company_missionArea .contentsArea .facilityArea > div:nth-of-type(2n){margin-left: 20px;}
+
+/* 서브페이지 - 기업소개 - 미션과 비전 - 파트너스*/
+.company_missionArea .contentsArea .partnerArea ul::after{content: ''; display: block; clear: both;}
+.company_missionArea .contentsArea .partnerArea ul li{float: left; width: calc((100% - 100px) / 6); text-align: center;}
+.company_missionArea .contentsArea .partnerArea ul li:not(:nth-child(6n)){margin-right: 20px;}
+.company_missionArea .contentsArea .partnerArea ul li:not(:nth-child(-n + 6)){margin-top: 20px;}
+.company_missionArea .contentsArea .partnerArea ul li img{width: 100%; border: 1px solid #c5c5c5; margin-bottom: 20px;}
+.company_missionArea .contentsArea .partnerArea ul li p{font-size: 21px;}
+
