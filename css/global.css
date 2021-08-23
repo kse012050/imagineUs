@@ -1,3 +1,4 @@
+.scroll{overflow: hidden;}
 [class|= 'material']{font-family: 'Material Icons';}
 
 /* 메인페이지 width */
@@ -41,7 +42,8 @@ mark span{position: relative; z-index: 1;}
 .contactUsLink{display: none;}
 
 
-header{position: fixed; left: 0; top: 0; width: 100%; background: rgba(0, 0, 0, 0.6); z-index: 100;}
+header{position: fixed; left: 0; top: 0; width: 100%; /* background: rgba(0, 0, 0, 0.6); */ z-index: 100; overflow: hidden; }
+header::after{content: ''; position: absolute; left: 0; width: 100%; height: 1px; background-color: #dddddd;}
 header > div{display: flex; justify-content: space-between;}
 header > div h1{text-indent: -9999px;}
 header > div h1 a{background-repeat: no-repeat; background-position: center; background-size: cover;}
@@ -62,6 +64,7 @@ header > div > div button{height: 110px; width: 27px;}
 header > div > div button span{display: block; width: 21px; height: 3px; background-color: white;}
 header > div > div button span:nth-child(1){margin-left: auto; margin-bottom: 10px;}
 
+.mainPage header::after{top: 124px;}
 .mainPage header h1{width: 89px; height: 99px; padding-top: 25px;}
 .mainPage header h1 a{display: block; height: 100%; background-image:url('../images/logo01.png'); }
 .mainPage header > div > div nav > ul > li > a{color: white;}
@@ -74,11 +77,23 @@ header > div > div button span:nth-child(1){margin-left: auto; margin-bottom: 10
 .mainPage header.active h1 a{background-image: url('../images/logo02.png');}
 .mainPage header.active > div > div nav > ul > li > a{color: black;}
 .mainPage header.active > div > div button span{background-color: black;}
+.mainPage header h1.black a{background-image: url('../images/logo02.png');}
+.mainPage header > div > div.black nav > ul > li > a{color: black;}
+.mainPage header > div > div.black button span{background-color: black;}
 
-.subPage header{background-color: white;}
+.subPage header{background-color: white; box-shadow: 2px 5px 10px 0px rgba(0, 0, 0, 0.2);}
+.subPage header::after{top: 124px;}
 .subPage header h1{width: 186px; height: 110px; display: flex; align-items: center;} 
 .subPage header h1 a{display: block; width: 100%; height: 62px; background-image:url('../images/sub_logo01.png'); }
 .subPage header > div > div nav > ul > li > a{color: black;}
+
+.scrollProgress{position: fixed; right: 45px; bottom: 130px;}
+.scrollProgress span{ font-family: 'Poppins', sans-serif; font-weight: 700; color: white; position: absolute; bottom: -95px; left: 3px; transform: rotate(-90deg); transform-origin: left;}
+.scrollProgress > div{width: 5px; height: 140px; background-color: rgba(255, 255, 255, 0.2); border: 1px solid rgba(255, 255, 255, 0.5);  border-radius: 20px; position: relative;}
+.scrollProgress > div > div{width: 5px; height: 0%; position: absolute; left: 0; top: 0; background-color: white; border-radius: 20px; }
+.scrollProgress.black span{color: black;}
+.scrollProgress.black > div{background-color: rgba(0, 0, 0, 0.2); border-color: rgba(0, 0, 0, 0.5);}
+.scrollProgress.black > div > div{background-color: black;}
 
 
 footer{padding: 85px 0; background-color: #202020;}
