@@ -103,6 +103,9 @@
 [class ^= 'solution'] .subTitle{background-image: url('../images/solution_titllBG.png');}
 /* 기업소개 */
 [class ^= 'company'] .subTitle{background-image: url('../images/company_titllBG.png');}
+/* 임팩트 */
+[class ^= 'impact'] .subTitle{background-image: url('../images/impact_titleBG.png');}
+
 /* 서브페이지 페이저 */
 .subPage .subPager{padding: 15px 0; border-bottom: 1px solid rgba(0, 0, 0, 0.1);}
 .subPage .subPager ol{display: flex;}
@@ -350,3 +353,11 @@
 .company_contactUsArea .contentsArea .addressBox > div.column02:nth-of-type(2n){margin-right: 20px;}
 .company_contactUsArea .contentsArea .addressBox > div h4{font-weight: 400; margin-bottom: 25px;}
 .company_contactUsArea .contentsArea .addressBox > div iframe{width: 100%;}
+
+
+/* 서브페이지 - 임팩트 */
+.impactArea .contentsArea .borderBox{height: 130px; display: flex; align-items: center; margin-bottom: 50px;}
+.impactArea .contentsArea .borderBox strong{width: 480px; text-align: center; letter-spacing: 5px;}
+.impactArea .contentsArea .borderBox p{font-weight: 700;}
+.impactArea .contentsArea > p{text-align: center; margin-bottom: 70px;}
+.impactArea .contentsArea .imgBox{text-indent: -9999px; height: 683px; background: url('../images/impactImg01.png') no-repeat center / cover; }
