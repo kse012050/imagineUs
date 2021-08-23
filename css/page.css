@@ -289,3 +289,27 @@
 .company_missionArea .contentsArea .partnerArea ul li img{width: 100%; border: 1px solid #c5c5c5; margin-bottom: 20px;}
 .company_missionArea .contentsArea .partnerArea ul li p{font-size: 21px;}
 
+
+/* 서브페이지 - 기업소개 - history */
+.company_historyArea .contentsArea{}
+.company_historyArea .contentsArea ol.historyList{}
+.company_historyArea .contentsArea ol.historyList li::after{content: ''; display: block; clear: both;}
+.company_historyArea .contentsArea ol.historyList li > *{float: left;}
+.company_historyArea .contentsArea ol.historyList li > strong{width: 170px;}
+.company_historyArea .contentsArea ol.historyList li > div{width: calc(100% - 170px);}
+.company_historyArea .contentsArea ol.historyList li > div div{padding-left: 70px; padding-bottom: 30px; position: relative;}
+.company_historyArea .contentsArea ol.historyList li > div div::before{content: ''; position: absolute; left: -9.5px; top: 6px; width: 19px; height: 19px; background-color: #39bca5; border-radius: 100%;}
+.company_historyArea .contentsArea ol.historyList li > div div::after{content: ''; position: absolute; left: 0; top: 6px; width: 1px; height: 100%; background-color: rgba(49, 179, 155, 0.2); }
+.company_historyArea .contentsArea ol.historyList li:last-of-type > div div:last-of-type::after{display: none;}
+.company_historyArea .contentsArea ol.historyList li > div div mark{color: #39bca5;}
+.company_historyArea .contentsArea ol.historyList li > div div p{color:#8b8b8b;}
+
+.company_historyArea .projectArea{background-color:#f7f7f7;}
+.company_historyArea .projectArea ol > li{padding: 60px 40px; background-color: white; border-radius: 20px; display: flex; justify-content: space-between; box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.2);}
+.company_historyArea .projectArea ol > li:not(:last-child){margin-bottom: 40px;}
+.company_historyArea .projectArea ol > li strong{position: relative;}
+.company_historyArea .projectArea ol > li strong::before{content: ''; position: absolute; left: -25px; top: 0; width: 21px; height: 17px; background: url('../images/quoteIcon01.png') no-repeat center / cover;}
+.company_historyArea .projectArea ol > li ul{max-width: 900px; display: flex; justify-content: space-between; flex-wrap: wrap;}
+.company_historyArea .projectArea ol > li ul li{width: 280px; height: 110px; background-color: #f7f7f7; border-radius: 20px; display: flex; flex-direction: column; justify-content: center; align-items: center; letter-spacing: -1px;}
+.company_historyArea .projectArea ol > li ul li:not(:nth-child(-n + 3)){margin-top: 20px;}
+
