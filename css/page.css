@@ -318,9 +318,12 @@
 
 /* 서브페이지 - 기업소개 - 상시채용 */
 .company_employArea .contentsArea .topImgBox{background-image: url('../images/company_employBG.png'); text-align: center;}
-.company_employArea .contentsArea .topImgBox > div{padding-top: 55px; margin-bottom: 50px;}
+.company_employArea .contentsArea .topImgBox > div{padding-top: 55px; margin-bottom: 50px; position: relative;}
+.company_employArea .contentsArea .topImgBox > div::before , .company_employArea .contentsArea .topImgBox > div::after{content: ''; position: absolute; top: 140px; width: 28px; height: 22px; background-repeat: no-repeat; background-size: cover; background-position: center;}
+.company_employArea .contentsArea .topImgBox > div::before{left: -30px; background-image: url('../images/quoteIcon01_1.png');}
+.company_employArea .contentsArea .topImgBox > div::after{right: -30px; background-image: url('../images/quoteIcon02.png');}
 .company_employArea .contentsArea .topImgBox > div strong{display: block; margin-bottom: 45px;}
-.company_employArea .contentsArea .topImgBox > div p{line-height: 32px;}
+.company_employArea .contentsArea .topImgBox > div p{line-height: 32px; font-weight: 300;}
 .company_employArea .contentsArea .topImgBox > div p:not(:last-of-type){margin-bottom: 40px;}
 .company_employArea .contentsArea .topImgBox > ul::after{content: ''; display: block; clear: both;}
 .company_employArea .contentsArea .topImgBox > ul{color: white; margin-bottom: 60px;}
@@ -333,3 +336,17 @@
 .company_employArea .contentsArea .topImgBox > p{line-height: 50px;}
 .company_employArea .contentsArea .topImgBox > p:not(:last-of-type){margin-bottom: 50px;}
 .company_employArea .contentsArea .topImgBox .listLink.case01{width: 380px; line-height: 70px; margin-top: 80px;}
+
+
+/* 서브페이지 - 기업소개 - Contact Us */
+.company_contactUsArea .contentsArea .borderBox{height: 130px; display: flex; align-items: center; margin-bottom: 50px;}
+.company_contactUsArea .contentsArea .borderBox > b{flex: 1; text-align: center;}
+.company_contactUsArea .contentsArea .borderBox > b a{color: black;}
+
+.company_contactUsArea .contentsArea .addressBox::after{content: ''; display: block; clear: both;}
+.company_contactUsArea .contentsArea .addressBox > div{float: left;}
+.company_contactUsArea .contentsArea .addressBox > div.column01{width: 100%; margin-bottom: 40px;}
+.company_contactUsArea .contentsArea .addressBox > div.column02{width: calc((100% - 20px) / 2);}
+.company_contactUsArea .contentsArea .addressBox > div.column02:nth-of-type(2n){margin-right: 20px;}
+.company_contactUsArea .contentsArea .addressBox > div h4{font-weight: 400; margin-bottom: 25px;}
+.company_contactUsArea .contentsArea .addressBox > div iframe{width: 100%;}
