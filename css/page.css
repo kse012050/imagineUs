@@ -52,7 +52,7 @@
 .main_interviewArea .bx-wrapper{box-shadow: none; border: none; background: transparent; margin: 0; height: 100%;}
 .main_interviewArea .bx-wrapper .bx-viewport{height: 100%;}
 .main_interviewArea .mainSlider{height: 100%;}
-.main_interviewArea .mainSlider > div{height: 100%;}
+.main_interviewArea .mainSlider > div{height: 100%; display: flex; flex-direction: column; justify-content: center;}
 .main_interviewArea .mainSlider > div > *:not(.imgBox){position: relative; z-index: 1;}
 .main_interviewArea .mainSlider > div h3{margin-bottom: 125px;}
 .main_interviewArea .mainSlider > div h3 small{font-family: 'Poppins', sans-serif;  font-size: 22px; line-height: 1; display: block; margin-bottom: 50px;}

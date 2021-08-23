@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    history.scrollRestoration = "manual";
     var scrollArray = [$('[data-scroll = "all"]'),$('[data-scroll = "pc"] > *')];
     var delta = 0;
     var offsetTop = 0;
