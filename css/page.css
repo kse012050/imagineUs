@@ -86,6 +86,7 @@
 
 /* 서브페이지 공통 */
 .subPage > section{padding-top: 110px;}
+.subPage > section.BGCase01{background-color: #f7f7f7;}
 .subPage .contentsArea.case01{padding: 100px 0;}
 
 .subPage .contentsArea h3{text-align: center;}
@@ -107,7 +108,7 @@
 [class ^= 'impact'] .subTitle{background-image: url('../images/impact_titleBG.png');}
 
 /* 서브페이지 페이저 */
-.subPage .subPager{padding: 15px 0; border-bottom: 1px solid rgba(0, 0, 0, 0.1);}
+.subPage .subPager{padding: 15px 0; border-bottom: 1px solid rgba(0, 0, 0, 0.1); background-color: white;}
 .subPage .subPager ol{display: flex;}
 .subPage .subPager ol li{padding-right: 20px; margin-right: 20px; border-right: 1px solid rgba(0, 0, 0, 0.1); color: #666666;}
 .subPage .subPager ol li:first-child{position: relative; text-indent: -9999px; width: 25px;}
@@ -361,3 +362,23 @@
 .impactArea .contentsArea .borderBox p{font-weight: 700;}
 .impactArea .contentsArea > p{text-align: center; margin-bottom: 70px;}
 .impactArea .contentsArea .imgBox{text-indent: -9999px; height: 683px; background: url('../images/impactImg01.png') no-repeat center / cover; }
+
+
+/* 서브페이지 - 임팩트 - 기업사례*/
+.impact_caseArea .contentsArea ol li{padding: 100px 75px 75px; background-color: white; border-radius: 20px; counter-increment: businessCase; box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.2);}
+.impact_caseArea .contentsArea ol li:not(:last-child){margin-bottom: 50px;}
+.impact_caseArea .contentsArea ol li h4{text-align: center; background-color: white; margin-bottom: 70px;}
+.impact_caseArea .contentsArea ol li h4 span{position: relative;}
+.impact_caseArea .contentsArea ol li h4 span::before{content: '0' counter(businessCase); position: absolute; left: 0; top: -40px; font-family: 'Poppins', sans-serif;   font-size: 71px; font-weight: 700; color: #39bca5; height: 45px; overflow: hidden; letter-spacing: -3px;}
+
+.impact_caseArea .contentsArea ol li > div{border: 1px solid #dfdfdf; border-radius: 20px; padding: 30px 0; display: flex; align-items: center; margin-bottom: 50px;}
+.impact_caseArea .contentsArea ol li > div .imgBox{width: 250px;}
+.impact_caseArea .contentsArea ol li > div .imgBox img{width: 100%;}
+.impact_caseArea .contentsArea ol li > div .textBox{/* width: calc(100% - 250px); */ flex: 1; color: #333333; padding: 0 50px; border-left: 1px solid #dfdfdf;}
+
+.impact_caseArea .contentsArea ol li > figure{display: flex; align-items: center;}
+.impact_caseArea .contentsArea ol li > figure img{width: 430px; padding: 15px; border: 1px solid #f7f7f7; margin-right: 50px;}
+.impact_caseArea .contentsArea ol li > figure figcaption{flex: 1;}
+.impact_caseArea .contentsArea ol li > figure figcaption h5{font-weight: 400; margin-bottom: 55px;}
+.impact_caseArea .contentsArea ol li > figure figcaption p:first-of-type{padding-top: 30px; background: url('../images/quoteIcon01.png') no-repeat left top;}
+
