@@ -210,14 +210,14 @@
 
     /* 서브페이지 - 솔루션 - 플랫폼*/
     .solution_platformArea{text-align: center;}
-    .solution_platformArea .contentsArea > p{margin-bottom: 60px;}
-    .solution_platformArea .contentsArea > ul{display: flex; align-items: stretch; margin-bottom: 100px;}
-    .solution_platformArea .contentsArea > ul li{width: calc(100% / 3); height: 345px;  position: relative; }
-    .solution_platformArea .contentsArea > ul li::before{content: ''; position: absolute; left: 0; top: 0; width: 365px; height: 365px; border-radius: 100%; z-index: -1;}
+    .solution_platformArea .contentsArea > p{margin-bottom: 80px;}
+    .solution_platformArea .contentsArea > ul{ align-items: stretch; margin-bottom: 100px;}
+    .solution_platformArea .contentsArea > ul li{width: 345px; height: 345px; margin: 0 auto;  position: relative; }
+    .solution_platformArea .contentsArea > ul li::before{content: ''; position: absolute; left: -10px; top: 0; width: 365px; height: 365px; border-radius: 100%; z-index: -1;}
     .solution_platformArea .contentsArea > ul li:nth-child(1)::before{background-color: #f15835;}
     .solution_platformArea .contentsArea > ul li:nth-child(2)::before{background-color: #39bca5;}
     .solution_platformArea .contentsArea > ul li:nth-child(3)::before{background-color: #f78e1d;}
-    .solution_platformArea .contentsArea > ul li div{color: white; display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100%; padding-left: 30px; box-sizing: border-box;}
+    .solution_platformArea .contentsArea > ul li div{color: white; display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100%;}
     .solution_platformArea .contentsArea > ul li div::before{content: ''; width: 124px; height: 107px; background-repeat: no-repeat; background-position: center; background-size: cover; margin-bottom: 30px;}
     .solution_platformArea .contentsArea > ul li:nth-child(1) div::before{background-image: url('../images/solution_platformIcon01.png');}
     .solution_platformArea .contentsArea > ul li:nth-child(2) div::before{background-image: url('../images/solution_platformIcon02.png');}

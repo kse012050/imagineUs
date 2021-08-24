@@ -102,10 +102,10 @@
     footer > div h2{max-width: 186px; margin-bottom: 50px;}
     footer > div h2 img{width: 100%;}
     footer > div > div address::after{content: ''; display: block; clear: both;}
-    footer > div > div address{font-style: normal;color: white; margin-bottom: 30px;}
+    footer > div > div address{font-size: 20px; line-height: 30px; font-style: normal;color: white; margin-bottom: 30px;}
     footer > div > div address p{float: left;}
     footer > div > div address p:first-child{width: 100%;}
     footer > div > div address p:nth-child(n + 2){margin-right: 40px;}
-    footer > div > div > p{color: rgba(255, 255, 255, 0.4);}    
+    footer > div > div > p{font-size: 20px; line-height: 30px; color: rgba(255, 255, 255, 0.4);}    
 }
 
