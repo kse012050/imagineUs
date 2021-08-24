@@ -3,7 +3,7 @@
     .mainWidth{max-width: 1830px; width: calc(100% - 60px); margin: 0 auto;}
     /* 서브페이지 width */
     .width1200{max-width: 1200px; margin: 0 auto; width: calc(100% - 60px);}
-    .width1200.mw_case01{max-width: 640px;}
+    .width1200.mw_case01{max-width: 580px; width: 100%;}
     .width1200.mw_case01{}
     .width1035{max-width: 1035px; margin: 0 auto;}
 

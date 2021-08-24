@@ -172,11 +172,10 @@
 
     /* 서브페이지 - 솔루션 - 리포트*/
     .solution_reportArea .contentsArea a{color: black;}
-    .solution_reportArea .contentsArea ul::after{content: ''; display: block; clear: both;}
-    .solution_reportArea .contentsArea ul{margin-bottom: 100px;}
-    .solution_reportArea .contentsArea ul li{float: left; width: 28.53%;}
-    .solution_reportArea .contentsArea ul li:not(:nth-child(3n)){margin-right: 7.205%;}
-    .solution_reportArea .contentsArea ul li:not(:nth-child(-n + 3)){margin-top: 80px;}
+    .solution_reportArea .contentsArea ul{margin-bottom: 50px; display: flex; flex-wrap: wrap;}
+    .solution_reportArea .contentsArea ul li{float: left; width: calc((100% - 20px) / 2);}
+    .solution_reportArea .contentsArea ul li:nth-child(2n){margin-left: 20px;}
+    .solution_reportArea .contentsArea ul li:not(:nth-child(-n + 2)){margin-top: 50px;}
     .solution_reportArea .contentsArea ul li .imgBox{max-height: 193px; overflow: hidden; margin-bottom: 15px;}
     .solution_reportArea .contentsArea ul li .imgBox img{width: 100%;}
 
@@ -226,8 +225,6 @@
 
 
     /* 서브페이지 - 솔루션 - 교육*/
-    .solution_educationArea{background-color:#f7f7f7;}
-    .solution_educationArea .contentsArea{}
     .solution_educationArea .contentsArea > p{margin-bottom: 50px; letter-spacing: -1.5px;}
     /* 서브페이지 - 솔루션 - 교육 contentsBox*/
     .solution_educationArea .contentsBox:not(:last-of-type){margin-bottom: 50px;}
