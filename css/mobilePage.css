@@ -322,13 +322,14 @@
     .company_historyArea .contentsArea ol.historyList li > div div p{color:#8b8b8b;}
 
     .company_historyArea .projectArea{background-color:#f7f7f7;}
-    .company_historyArea .projectArea ol > li{padding: 60px 40px; background-color: white; border-radius: 20px; display: flex; justify-content: space-between; box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.2);}
+    .company_historyArea .projectArea ol > li{padding: 45px 10px 10px; background-color: white; border-radius: 20px; box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.2);}
     .company_historyArea .projectArea ol > li:not(:last-child){margin-bottom: 40px;}
-    .company_historyArea .projectArea ol > li strong{position: relative;}
-    .company_historyArea .projectArea ol > li strong::before{content: ''; position: absolute; left: -25px; top: 0; width: 21px; height: 17px; background: url('../images/quoteIcon01.png') no-repeat center / cover;}
-    .company_historyArea .projectArea ol > li ul{max-width: 900px; display: flex; justify-content: space-between; flex-wrap: wrap;}
-    .company_historyArea .projectArea ol > li ul li{width: 280px; height: 110px; background-color: #f7f7f7; border-radius: 20px; display: flex; flex-direction: column; justify-content: center; align-items: center; letter-spacing: -1px;}
-    .company_historyArea .projectArea ol > li ul li:not(:nth-child(-n + 3)){margin-top: 20px;}
+    .company_historyArea .projectArea ol > li strong{display: block; position: relative; margin-left: 50px; margin-bottom: 40px;}
+    .company_historyArea .projectArea ol > li strong::before{content: ''; position: absolute; left: -30px; top: 0; width: 21px; height: 17px; background: url('../images/quoteIcon01.png') no-repeat center / cover;}
+    .company_historyArea .projectArea ol > li ul{ display: flex; flex-wrap: wrap;}
+    .company_historyArea .projectArea ol > li ul li{width:calc((100% - 10px) / 2); height: 110px; background-color: #f7f7f7; border-radius: 20px; display: flex; flex-direction: column; justify-content: center; align-items: center; letter-spacing: -1px;}
+    .company_historyArea .projectArea ol > li ul li:nth-child(2n){margin-left: 10px;}
+    .company_historyArea .projectArea ol > li ul li:not(:nth-child(-n + 2)){margin-top: 10px;}
 
 
     /* 서브페이지 - 기업소개 - 상시채용 */
