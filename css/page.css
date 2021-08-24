@@ -192,7 +192,7 @@
     .solution_report_datailArea .contentsArea > div.board_contents .imgBox:not(:last-child){margin-bottom: 90px;}
     .solution_report_datailArea .contentsArea > div.board_contents > *:not(.title){font-size: 21px; line-height: 28px; padding: 0 5%;}
     .solution_report_datailArea .contentsArea > div.board_contents > *:not(:last-child){margin-bottom: 30px;}
-    .solution_report_datailArea .contentsArea > div.downloadArea{padding: 40px 2.5%; border-width: 1px 0 2px; border-style: solid; border-color: #cccccc 0 black; margin-bottom: 50px;}
+    .solution_report_datailArea .contentsArea > div.downloadArea{padding: 40px 2.5%; border-width: 1px 0 2px; border-style: solid; border-color: #cccccc transparent black; margin-bottom: 50px;}
     .solution_report_datailArea .contentsArea > div.downloadArea > *{font-size: 18px; color: #333333;}
     .solution_report_datailArea .contentsArea > div.downloadArea > a{display: inline-block; margin-left: 20px; position: relative;}
     .solution_report_datailArea .contentsArea > div.downloadArea > a::after{content: ''; position: absolute; left: 0; bottom: -7px; width: 100%; height: 1px; background-color: black;}
