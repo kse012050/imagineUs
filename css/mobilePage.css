@@ -266,14 +266,15 @@
     /* 서브페이지 - 기업소개 - 미션과 비전*/
     .company_missionArea .contentsArea > div:not(:last-child){margin-bottom: 100px;}
     .company_missionArea .contentsArea .visionArea::after{content: ''; display: block; clear: both;}
-    .company_missionArea .contentsArea .visionArea > div{float: left; width: calc((100% - 20px) / 2); height: 180px; display: flex; align-items: center;}
-    .company_missionArea .contentsArea .visionArea > div:nth-of-type(2n){margin-left: 20px;}
+    .company_missionArea .contentsArea .visionArea > div{ height: 180px; display: flex; align-items: center;}
+    .company_missionArea .contentsArea .visionArea > div:not(:last-child){margin-bottom: 15px;}
     .company_missionArea .contentsArea .visionArea > div strong{width: 300px; text-align: center; text-transform: uppercase; letter-spacing: 5px;}
     .company_missionArea .contentsArea .visionArea > div p{font-weight: 700;}
 
     /* 서브페이지 - 기업소개 - 미션과 비전 - CI*/
-    .company_missionArea .contentsArea .CIArea > div:not(.designBox){float: left; width: calc((100% - 20px) / 2); margin-bottom: 50px;}
-    .company_missionArea .contentsArea .CIArea > div:nth-of-type(2n){margin-left: 20px;}
+    /* .company_missionArea .contentsArea .CIArea > div:not(.designBox){float: left; width: calc((100% - 20px) / 2); margin-bottom: 50px;} */
+    /* .company_missionArea .contentsArea .CIArea > div:nth-of-type(2n){margin-left: 20px;} */
+    .company_missionArea .contentsArea .CIArea > div:not(:last-child){margin-bottom: 30px;}
     .company_missionArea .contentsArea .CIArea > div h4{font-size: 21px; font-weight: 400; margin-bottom: 20px;}
 
     .company_missionArea .contentsArea .CIArea .basicBox img{width: 100%;}
@@ -288,22 +289,22 @@
     .company_missionArea .contentsArea .CIArea .designBox{clear: both;}
     .company_missionArea .contentsArea .CIArea .designBox ul{margin-bottom: 50px;}
     .company_missionArea .contentsArea .CIArea .designBox ul::after{content: ''; display: block; clear: both;}
-    .company_missionArea .contentsArea .CIArea .designBox ul li{float: left; width: calc((100% - 40px) / 3);}
-    .company_missionArea .contentsArea .CIArea .designBox ul li:not(:nth-child(3n)){margin-right: 20px;}
-    .company_missionArea .contentsArea .CIArea .designBox ul li:not(:nth-child(-n + 3)){margin-top: 20px;}
+    .company_missionArea .contentsArea .CIArea .designBox ul li{float: left; width: calc((100% - 20px) / 3);}
+    .company_missionArea .contentsArea .CIArea .designBox ul li:not(:nth-child(3n)){margin-right: 10px;}
+    .company_missionArea .contentsArea .CIArea .designBox ul li:not(:nth-child(-n + 3)){margin-top: 10px;}
     .company_missionArea .contentsArea .CIArea .designBox ul li img{width: 100%;}
     .company_missionArea .contentsArea .CIArea .designBox .listLink.case01{width: 380px; line-height: 70px;}
 
     /* 서브페이지 - 기업소개 - 미션과 비전 - 시설 안내*/
     .company_missionArea .contentsArea .facilityArea::after{content: ''; display: block; clear: both;}
-    .company_missionArea .contentsArea .facilityArea > div{float: left; width: calc((100% - 20px) / 2); height: 315px; background-color: #eeeeee;}
-    .company_missionArea .contentsArea .facilityArea > div:nth-of-type(2n){margin-left: 20px;}
+    .company_missionArea .contentsArea .facilityArea > div{float: left; height: 315px; background-color: #eeeeee;}
+    .company_missionArea .contentsArea .facilityArea > div:not(:last-child){margin-bottom: 10px;}
 
     /* 서브페이지 - 기업소개 - 미션과 비전 - 파트너스*/
     .company_missionArea .contentsArea .partnerArea ul::after{content: ''; display: block; clear: both;}
-    .company_missionArea .contentsArea .partnerArea ul li{float: left; width: calc((100% - 100px) / 6); text-align: center;}
-    .company_missionArea .contentsArea .partnerArea ul li:not(:nth-child(6n)){margin-right: 20px;}
-    .company_missionArea .contentsArea .partnerArea ul li:not(:nth-child(-n + 6)){margin-top: 20px;}
+    .company_missionArea .contentsArea .partnerArea ul li{float: left; width: calc((100% - 20px) / 3); text-align: center;}
+    .company_missionArea .contentsArea .partnerArea ul li:not(:nth-child(3n)){margin-right: 10px;}
+    .company_missionArea .contentsArea .partnerArea ul li:not(:nth-child(-n + 3)){margin-top: 30px;}
     .company_missionArea .contentsArea .partnerArea ul li img{width: 100%; border: 1px solid #c5c5c5; margin-bottom: 20px;}
     .company_missionArea .contentsArea .partnerArea ul li p{font-size: 21px;}
 
