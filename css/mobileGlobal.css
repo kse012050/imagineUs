@@ -2,7 +2,9 @@
     /* 메인페이지 width */
     .mainWidth{max-width: 1830px; width: calc(100% - 60px); margin: 0 auto;}
     /* 서브페이지 width */
-    .width1200{max-width: 1200px; margin: 0 auto;}
+    .width1200{max-width: 1200px; margin: 0 auto; width: calc(100% - 60px);}
+    .width1200.mw_case01{max-width: 640px;}
+    .width1200.mw_case01{}
     .width1035{max-width: 1035px; margin: 0 auto;}
 
     /* title case */
@@ -57,13 +59,15 @@
     header > div > div nav > ul > li ul li a{font-size: 24px; font-weight: 500; color: black; display: block; padding: 15px 0;}
     header > div > div nav > ul > li ul li a:hover{color:#28b6a0;}
     header > div > div nav .contactUsLink{display: block; line-height: 80px; background-color: #f78e1d; margin: 30px;}
-    header > div > div button{height: 110px; width: 60px;  position: relative; z-index: 100;}
-    header > div > div button span{display: block; width: 47px; height: 6px; background-color: white; border-radius: 20px;}
+    header > div > div button{position: relative; z-index: 100;}
+    header > div > div button span{display: block;}
     header > div > div button span:nth-child(1){margin-left: auto; margin-bottom: 17px;}
 
     .mainPage header h1{width: 89px; height: 99px; padding-top: 25px;}
     .mainPage header h1 a{display: block; height: 100%; background-image:url('../images/m/logo01.png'); }
     .mainPage header > div > div nav > ul > li > a{color: black;}
+    .mainPage header > div > div button{height: 110px; width: 60px;  }
+    .mainPage header > div > div button span{width: 47px; height: 6px; border-radius: 20px; background-color: white;}
 
    /*  .mainPage header{transition: 0.5s background-color; }
     .mainPage header h1 a{transition: 0.5background-image;}
@@ -82,6 +86,8 @@
     .subPage header h1{width: 186px; height: 110px; display: flex; align-items: center;} 
     .subPage header h1 a{display: block; width: 100%; height: 62px; background-image:url('../images/sub_logo01.png'); }
     .subPage header > div > div nav > ul > li > a{color: black;}
+    .subPage header > div > div button{height: 110px; width: 55px;  }
+    .subPage header > div > div button span{width: 43px; height: 3px; border-radius: 20px; background-color: black;}
 
     .scrollProgress{position: fixed; right: 45px; bottom: 130px;}
     .scrollProgress span{ font-family: 'Poppins', sans-serif; font-weight: 700; color: white; position: absolute; bottom: -95px; left: 3px; transform: rotate(-90deg); transform-origin: left;}
