@@ -1,6 +1,10 @@
 $(document).ready(function(){
     history.scrollRestoration = "manual";
-    var scrollArray = [$('[data-scroll = "all"]'),$('[data-scroll = "pc"] > *')];
+    var scrollArray = $('[data-scroll = "all"] , [data-scroll = "pc"] > * ');
+
+    for(var i = 0 ; i < scrollArray.length; i++){
+        console.log(scrollArray[i]);
+    }
     var delta = 0;
     var offsetTop = 0;
     $.each(scrollArray , function(){

@@ -1,31 +1,28 @@
-/* .scrollPage{overflow: hidden;} */
-[class|= 'material']{font-family: 'Material Icons';}
-@media screen and (min-width : 1280px) {
-    br.mobile{display: none;}
+@media screen and (max-width : 1279px) {
     /* 메인페이지 width */
-    .mainWidth{max-width: 1830px; width: calc(100% - 90px); padding: 0 45px; margin: 0 auto;}
+    .mainWidth{max-width: 1830px; width: calc(100% - 60px); margin: 0 auto;}
     /* 서브페이지 width */
     .width1200{max-width: 1200px; margin: 0 auto;}
     .width1035{max-width: 1035px; margin: 0 auto;}
 
     /* title case */
-    .t_case01{font-size: 70px; font-weight: 900;}
+    .t_case01{font-size: 53px; font-weight: 900;} /* ! */
     .t_case01.lh01{line-height: 85px;}
-    .t_case02{font-size: 62px; line-height: 82px; font-weight: 700;}    /* 20px / 10px */
-    .t_case03{font-size: 54.5px; font-weight: 700;}
+    .t_case02{font-size: 62px; line-height: 82px; font-weight: 700;}   /* ! */
+    .t_case03{font-size: 54px; font-weight: 700;} /* ! */
     .t_case04{font-size: 40px; font-weight: 700;}
     .t_case04.lh01{line-height: 46px;}
     .t_case05{font-size: 36px; font-weight: 700;}
-    .t_case06{font-size: 28px; line-height: 36px; font-weight: 700;}  /* 8px / 4px */
+    .t_case06{font-size: 35px; line-height: 46px; font-weight: 700;}   /* ! */
     /* font case */
-    .f_case01{font-size: 26px; line-height: 43px;}  /* 17px / 8.5px */
-    .f_case02{font-size: 32px;}  /* 15px / 7.5px */
-    .f_case02.lh01{line-height: 47px;}
+    .f_case01{font-size: 28px; line-height: 43px;}   /* ! */
+    .f_case02{font-size: 32px;}  /* ! */
+    .f_case02.lh01{line-height: 40px;} /* ! */
     .f_case02.lh02{line-height: 42px;}
-    .f_case03{font-size: 27px; line-height: 33px; font-weight: 700;}
-    .f_case04{font-size: 23px; line-height: 33px;}
+    .f_case03{font-size: 27px; line-height: 33px; font-weight: 700;} 
+    .f_case04{font-size: 29px; line-height: 41px;}  /* ! */
     .f_case05{font-size: 21px; line-height: 31px;}
-    .f_case06{font-size: 20px; line-height: 28px;} /* 8px / 4px */
+    .f_case06{font-size: 22px; line-height: 28px;} /* ! */
     .f_case07{font-size: 17px; line-height: 25px;}
 
     mark{background-color: transparent;}
@@ -38,39 +35,37 @@
     mark span{position: relative; z-index: 1;}
 
     /* 메인 - padding case */
-    .main_padding01{padding-left: 5.5%; padding-right: 5.5%; box-sizing: border-box; }
+    /* .main_padding01{padding-left: 5.5%; padding-right: 5.5%; box-sizing: border-box; } */
 
     .contactUsLink{display: none;}
 
 
-    header{position: fixed; left: 0; top: 0; width: 100%; /* background: rgba(0, 0, 0, 0.6); */ z-index: 100; overflow: hidden; }
-    header::after{content: ''; position: absolute; left: 0; width: 100%; height: 1px; background-color: #dddddd;}
+    header{position: fixed; left: 0; top: 0; width: 100%; /* background: rgba(0, 0, 0, 0.6); */ z-index: 100; }
     header > div{display: flex; justify-content: space-between;}
-    header > div h1{text-indent: -9999px;}
+    header > div h1{text-indent: -9999px; position: relative; z-index: 100;}
     header > div h1 a{background-repeat: no-repeat; background-position: center; background-size: cover;}
     header > div > div{display: flex;}
-    header > div > div nav{margin-right: 35px;}
-    header > div > div nav > ul{display: flex;}
-    header > div > div nav > ul > li > a{padding: 0 50px; font-size: 22px; font-weight: bold; line-height: 110px;}
+    header > div > div nav{position: fixed; left: 100%; top: 0; width: 100%; height: 100%; display: flex; flex-direction: column; padding-top: 110px; box-sizing: border-box; background-color: white; z-index: 99;}
+    header > div > div nav > ul{padding: 15px 0; flex: 1;  overflow: auto; border-top: 1px solid #dddddd;}
+    header > div > div nav > ul > li > a{padding: 15px 30px; font-size: 28px; font-weight: bold; }
     header > div > div nav > ul > li > a span{position: relative;}
     header > div > div nav > ul > li > a span::after{content: ''; position: absolute; left: 0; bottom: -10px; width: 100%; height: 1px; background-color: transparent;}
     header > div > div nav > ul > li:hover > a span{color: #39bca5;}
-    header > div > div nav > ul > li:hover > a span::after{background-color: #39bca5;}
-    header > div > div nav > ul > li ul{padding-left: 50px; display: none;}
-    header > div > div nav > ul > li ul li:first-of-type{padding-top: 25px;}
-    header > div > div nav > ul > li ul li:last-of-type{padding-bottom: 25px;}
-    header > div > div nav > ul > li ul li a{font-size: 20px; font-weight: 500; color: #888888; display: block; padding: 15px 0;}
-    header > div > div nav > ul > li ul li:hover a{font-weight: 700; color: black;}
-    header > div > div button{height: 110px; width: 27px;}
-    header > div > div button span{display: block; width: 21px; height: 3px; background-color: white;}
-    header > div > div button span:nth-child(1){margin-left: auto; margin-bottom: 10px;}
+    header > div > div nav > ul > li ul{padding-left: 30px; background-color: #f4f4f4; border-width: 1px 0; border-style: solid; border-color: #dddddd;}
+    header > div > div nav > ul > li ul li:first-of-type{padding-top: 15px;}
+    header > div > div nav > ul > li ul li:last-of-type{padding-bottom: 15px;}
+    header > div > div nav > ul > li ul li a{font-size: 24px; font-weight: 500; color: black; display: block; padding: 15px 0;}
+    header > div > div nav > ul > li ul li a:hover{color:#28b6a0;}
+    header > div > div nav .contactUsLink{display: block; line-height: 80px; background-color: #f78e1d; margin: 30px;}
+    header > div > div button{height: 110px; width: 60px;  position: relative; z-index: 100;}
+    header > div > div button span{display: block; width: 47px; height: 6px; background-color: white; border-radius: 20px;}
+    header > div > div button span:nth-child(1){margin-left: auto; margin-bottom: 17px;}
 
-    .mainPage header::after{top: 124px;}
     .mainPage header h1{width: 89px; height: 99px; padding-top: 25px;}
-    .mainPage header h1 a{display: block; height: 100%; background-image:url('../images/logo01.png'); }
-    .mainPage header > div > div nav > ul > li > a{color: white;}
+    .mainPage header h1 a{display: block; height: 100%; background-image:url('../images/m/logo01.png'); }
+    .mainPage header > div > div nav > ul > li > a{color: black;}
 
-    .mainPage header{transition: 0.5s background-color; }
+   /*  .mainPage header{transition: 0.5s background-color; }
     .mainPage header h1 a{transition: 0.5background-image;}
     .mainPage header > div > div nav > ul > li > a{transition:0.5s color;}
     .mainPage header > div > div button span{transition:0.5s background-color;}
@@ -80,7 +75,7 @@
     .mainPage header.active > div > div button span{background-color: black;}
     .mainPage header h1.black a{background-image: url('../images/logo02.png');}
     .mainPage header > div > div.black nav > ul > li > a{color: black;}
-    .mainPage header > div > div.black button span{background-color: black;}
+    .mainPage header > div > div.black button span{background-color: black;} */
 
     .subPage header{background-color: white; box-shadow: 2px 5px 10px 0px rgba(0, 0, 0, 0.2);}
     .subPage header::after{top: 124px;}
@@ -97,13 +92,14 @@
     .scrollProgress.black > div > div{background-color: black;}
 
 
-    footer{padding: 85px 0; background-color: #202020;}
-    footer > div{display: flex; justify-content: space-between; align-items: center;}
-    footer > div h2{max-width: 186px;}
+    footer{padding: 70px 0; background-color: #202020;}
+    footer > div h2{max-width: 186px; margin-bottom: 50px;}
     footer > div h2 img{width: 100%;}
-    footer > div > div{display: flex;}
-    footer > div > div address{font-style: normal; display: flex; color: white; margin-right: 65px;}
-    footer > div > div address p:not(:last-of-type){margin-right: 40px;}
+    footer > div > div address::after{content: ''; display: block; clear: both;}
+    footer > div > div address{font-style: normal;color: white; margin-bottom: 30px;}
+    footer > div > div address p{float: left;}
+    footer > div > div address p:first-child{width: 100%;}
+    footer > div > div address p:nth-child(n + 2){margin-right: 40px;}
     footer > div > div > p{color: rgba(255, 255, 255, 0.4);}    
 }
 
