@@ -12,7 +12,7 @@
     .t_case01.lh01{line-height: 85px;}
     .t_case02{font-size: 62px; line-height: 82px; font-weight: 700;}   /* ! */
     .t_case03{font-size: 54px; font-weight: 700;} /* ! */
-    .t_case04{font-size: 40px; font-weight: 700;}
+    .t_case04{font-size: 40px; line-height: 50px; font-weight: 700;}
     .t_case04.lh01{line-height: 46px;}
     .t_case05{font-size: 36px; font-weight: 700;}
     .t_case06{font-size: 35px; line-height: 46px; font-weight: 700;}   /* ! */
