@@ -17,8 +17,6 @@ $(document).ready(function(){
     var menuBlack;
     var touchStartX;
     var touchStartY;
-    var touchEndX;
-    var touchEndY;
     var touchCompareX;
     var touchCompareY;
 
@@ -27,12 +25,12 @@ $(document).ready(function(){
         touchStartY = e.changedTouches[0].clientY;
     })
 
-    $('body.scrollPage').on('mousewheel touchend',function(e){
+    $('body.scrollPage').on('mousewheel DOMMouseScroll touchend',function(e){
         if($('html, body').is(':animated')){
             return;
         }
-        console.log(e.type);
-        if(e.type == 'mousewheel'){
+        
+        if(e.type == 'mousewheel' || e.type == 'DOMMouseScroll'){
             delta = e.originalEvent.wheelDelta;
         }else if(e.type == 'touchend'){
             touchCompareX = Math.abs(touchStartX - e.changedTouches[0].clientX);
