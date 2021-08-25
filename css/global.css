@@ -107,3 +107,120 @@
     footer > div > div > p{color: rgba(255, 255, 255, 0.4);}    
 }
 
+@media screen and (max-width : 1279px) {
+    @media screen and (max-width : 640px){
+        html{font-size: 2.5vw;}
+    }
+
+    br.pc{display: none;}
+    /* 메인페이지 width */
+    .mainWidth{max-width: 1830px; width: calc(100% - 3.750em); margin: 0 auto;}
+    /* 서브페이지 width */
+    .width1200{max-width: 1200px; margin: 0 auto; }
+    .width1200.mw_case01{max-width: 40.000rem; width: calc(100% - 3.750em);}
+    .width1035{max-width: 1035px; margin: 0 auto;}
+
+    /* title case */
+    .t_case01{font-size: 3.313rem; font-weight: 900;} /* ! */
+    .t_case01.lh01{line-height: 5.313rem;}
+    .t_case02{font-size: 3.875rem; line-height: 5.125rem; font-weight: 700;}   /* ! */
+    .t_case03{font-size: 3.375rem; font-weight: 700;} /* ! */
+    .t_case04{font-size: 2.500rem; line-height: 3.125rem; font-weight: 700;}
+    .t_case04.lh01{line-height: 2.875rem;}
+    .t_case05{font-size: 2.250rem; font-weight: 700;}
+    .t_case06{font-size: 2.188rem; line-height: 2.875rem; font-weight: 700;}   /* ! */
+    /* font case */
+    .f_case01{font-size: 1.750rem; line-height: 2.688rem;}   /* ! */
+    .f_case02{font-size: 2.000rem;}  /* ! */
+    .f_case02.lh01{line-height: 2.500rem;} /* ! */
+    .f_case02.lh02{line-height: 2.625rem;}
+    .f_case03{font-size: 1.688rem; line-height: 2.063rem; font-weight: 700;} 
+    .f_case04{font-size: 1.813rem; line-height: 2.563rem;}  /* ! */
+    .f_case05{font-size: 1.313rem; line-height: 1.938rem;}
+    .f_case06{font-size: 1.375rem; line-height: 1.750rem;} /* ! */
+    .f_case07{font-size: 1.063rem; line-height: 1.563rem;}
+
+    mark{background-color: transparent;}
+    mark[class ^= 'case']{position: relative; display: inline-block; line-height: 1;}
+    mark[class ^= 'case']::after{content: ''; position: absolute; left: 0; bottom: -0.250rem; width: 100%; height: 0.375rem;}
+    mark.case01::after{background-color: #39bca5;}
+    mark.case02::after{background-color: #f15b39;}
+    mark.case03::after{background-color: #f78e1d;}
+    mark.case04::after{background-color: #43e5c9;}
+    mark span{position: relative; z-index: 1;}
+
+    /* 메인 - padding case */
+    /* .main_padding01{padding-left: 5.5%; padding-right: 5.5%; box-sizing: border-box; } */
+
+    .contactUsLink{display: none;}
+
+
+    header{position: fixed; left: 0; top: 0; width: 100%; /* background: rgba(0, 0, 0, 0.6); */ z-index: 100; }
+    header > div{display: flex; justify-content: space-between;}
+    header > div h1{text-indent: -9999px; position: relative; z-index: 100;}
+    header > div h1 a{background-repeat: no-repeat; background-position: center; background-size: cover;}
+    header > div > div{display: flex;}
+    header > div > div nav{position: fixed; left: 100%; top: 0; width: 100%; height: 100%; display: flex; flex-direction: column; padding-top: 6.875rem; box-sizing: border-box; background-color: white; z-index: 99;}
+    header > div > div nav > ul{padding: 0.938rem 0; flex: 1;  overflow: auto; border-top: 1px solid #dddddd;}
+    header > div > div nav > ul > li > a{padding: 0.938rem 1.875rem; font-size: 1.750rem; font-weight: bold; }
+    header > div > div nav > ul > li > a span{position: relative;}
+    header > div > div nav > ul > li > a span::after{content: ''; position: absolute; left: 0; bottom: -0.625rem; width: 100%; height: 1px; background-color: transparent;}
+    header > div > div nav > ul > li:hover > a span{color: #39bca5;}
+    header > div > div nav > ul > li ul{padding-left: 1.875rem; background-color: #f4f4f4; border-width: 1px 0; border-style: solid; border-color: #dddddd;}
+    header > div > div nav > ul > li ul li:first-of-type{padding-top: 0.938rem;}
+    header > div > div nav > ul > li ul li:last-of-type{padding-bottom: 0.938rem;}
+    header > div > div nav > ul > li ul li a{font-size: 1.500rem; font-weight: 500; color: black; display: block; padding: 0.938rem 0;}
+    header > div > div nav > ul > li ul li a:hover{color:#28b6a0;}
+    header > div > div nav .contactUsLink{display: block; line-height: 5.000rem; background-color: #f78e1d; margin: 1.875rem;}
+    header > div > div button{position: relative; z-index: 100;}
+    header > div > div button span{display: block;}
+    header > div > div button span:nth-child(1){margin-left: auto; margin-bottom: 1.063rem;}
+
+    .mainPage header h1{width: 5.563rem; height: 6.188rem; padding-top: 1.563rem;}
+    .mainPage header h1 a{display: block; height: 100%; background-image:url('../images/m/logo01.png'); }
+    .mainPage header > div > div nav > ul > li > a{color: black;}
+    .mainPage header > div > div button{height: 6.875rem; width: 3.750rem;  }
+    .mainPage header > div > div button span{width: 2.938rem; height: 0.375rem; border-radius: 1.250rem; background-color: white;}
+
+   /*  .mainPage header{transition: 0.5s background-color; }
+    .mainPage header h1 a{transition: 0.5background-image;}
+    .mainPage header > div > div nav > ul > li > a{transition:0.5s color;}
+    .mainPage header > div > div button span{transition:0.5s background-color;}
+    .mainPage header.active{background-color: white;}
+    .mainPage header.active h1 a{background-image: url('../images/logo02.png');}
+    .mainPage header.active > div > div nav > ul > li > a{color: black;}
+    .mainPage header.active > div > div button span{background-color: black;}
+    .mainPage header h1.black a{background-image: url('../images/logo02.png');}
+    .mainPage header > div > div.black nav > ul > li > a{color: black;}
+    .mainPage header > div > div.black button span{background-color: black;} */
+
+    .subPage header{background-color: white; box-shadow: 2px 0.313rem 0.625rem 0px rgba(0, 0, 0, 0.2);}
+    .subPage header::after{top: 7.750rem;}
+    .subPage header h1{width: 11.625rem; height: 6.875rem; display: flex; align-items: center;} 
+    .subPage header h1 a{display: block; width: 100%; height: 3.875rem; background-image:url('../images/sub_logo01.png'); }
+    .subPage header > div > div nav > ul > li > a{color: black;}
+    .subPage header > div > div button{height: 6.875rem; width: 3.438rem;  }
+    .subPage header > div > div button span{width: 2.688rem; height: 0.188rem; border-radius: 1.250rem; background-color: black;}
+
+    .scrollProgress{position: fixed; right: 2.813rem; bottom: 8.125rem;}
+    .scrollProgress span{ font-family: 'Poppins', sans-serif; font-weight: 700; color: white; position: absolute; bottom: -5.938rem; left: 0.188rem; transform: rotate(-90deg); transform-origin: left;}
+    .scrollProgress > div{width: 0.313rem; height: 8.750rem; background-color: rgba(255, 255, 255, 0.2); border: 1px solid rgba(255, 255, 255, 0.5);  border-radius: 1.250rem; position: relative;}
+    .scrollProgress > div > div{width: 0.313rem; height: 0%; position: absolute; left: 0; top: 0; background-color: white; border-radius: 1.250rem; }
+    .scrollProgress.black span{color: black;}
+    .scrollProgress.black > div{background-color: rgba(0, 0, 0, 0.2); border-color: rgba(0, 0, 0, 0.5);}
+    .scrollProgress.black > div > div{background-color: black;}
+
+
+    footer{padding: 4.375rem 0; background-color: #202020;}
+    footer > div h2{max-width: 11.625rem; margin-bottom: 3.125rem;}
+    footer > div h2 img{width: 100%;}
+    footer > div > div address::after{content: ''; display: block; clear: both;}
+    footer > div > div address{font-size: 1.250rem; line-height: 1.875rem; font-style: normal;color: white; margin-bottom: 1.875rem;}
+    footer > div > div address p{float: left;}
+    footer > div > div address p:first-child{width: 100%;}
+    footer > div > div address p:nth-child(n + 2){margin-right: 2.500rem;}
+    footer > div > div > p{font-size: 1.250rem; line-height: 1.875rem; color: rgba(255, 255, 255, 0.4);}    
+
+
+}
+
