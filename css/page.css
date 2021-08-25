@@ -423,10 +423,10 @@
     .problemArea .contentsArea .imgBox strong::before{left: -55px; background-image: url('../images/quoteIcon01_2.png');}
     .problemArea .contentsArea .imgBox strong::after{right: -55px; background-image: url('../images/quoteIcon02_2.png');}
     .problemArea .contentsArea .imgBox p{font-size: 34px; font-weight: 300; margin-bottom: 80px;}
-    .problemArea .contentsArea .imgBox div{text-indent: -9999px; height: 616px; background: url('../images/problem_img01.png') no-repeat center;}
+    .problemArea .contentsArea .imgBox div{/* text-indent: -9999px; height: 616px; background: url('../images/problem_img01.png') no-repeat center; */}
 
     .problemArea .contentsArea .BGBox02{height: 560px; background: #39bca5 ; position: relative;}
-    .problemArea .contentsArea .BGBox02::before{content: ''; position: absolute; left: 0; bottom: 0; width: 54.89%; height: 487px; background: url('../images/problem_BG03.png') no-repeat right center / cover; border: 8px 8px 0 0; border-style: solid; border-color: white;}
+    .problemArea .contentsArea .BGBox02::before{content: ''; position: absolute; left: 0; bottom: 0; width: 54.89%; height: 487px; background: url('../images/problem_BG03.png') no-repeat right center / cover; border-width: 8px 8px 0 0; border-style: solid; border-color: white;}
     .problemArea .contentsArea .BGBox02 > div{height: 100%; }
     .problemArea .contentsArea .BGBox02 > div > div{width: 420px; margin-left: auto; height: 100%; display: flex; flex-direction: column; justify-content: center; }
     .problemArea .contentsArea .BGBox02 > div > div p{font-size: 28px; line-height: 38px; font-weight: 500; color: white;}

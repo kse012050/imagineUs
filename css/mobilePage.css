@@ -133,7 +133,7 @@
 
     /* 서브페이지 top img box */
     .subPage .topImgBox{padding-top: 220px; background-repeat: no-repeat; background-position: center top; background-size: 640px;}
-    .subPage .topImgBox > div{max-width: 580px; margin: 0 auto; background: white;}
+    .subPage .topImgBox > div{width: 90%; max-width: 580px; margin: 0 auto; background: white;}
 
 
     /* 서브페이지 - 솔루션 */
@@ -397,29 +397,31 @@
 
     /* 서브페이지 - 사회문제 */
     .problemArea .contentsArea > *:not(:last-child){margin-bottom: 150px;}
-    .problemArea .contentsArea .quoteBox{text-align: center;}
-    .problemArea .contentsArea .quoteBox q{display: inline-block; font-size: 34px; line-height: 52px; text-align: center; position: relative;}
+    .problemArea .contentsArea .quoteBox{text-align: center;  max-width: 640px; width: calc(100% - 60px); margin-left: auto; margin-right: auto; position: relative;}
+    .problemArea .contentsArea .quoteBox q{display: inline-block; width: calc(100% - 60px); font-size: 34px; line-height: 52px; text-align: center; letter-spacing: -3px;}
     .problemArea .contentsArea .quoteBox q::before, .problemArea .contentsArea .quoteBox q::after{
         content: ''; width: 28px; height: 22px; position: absolute; top: calc(50% - 14px); background-repeat: no-repeat; background-position: center; background-size: cover;
     }
-    .problemArea .contentsArea .quoteBox q::before{left: -55px; background-image: url('../images/quoteIcon01_1.png');}
-    .problemArea .contentsArea .quoteBox q::after{right: -55px; background-image: url('../images/quoteIcon02_1.png');}
+    .problemArea .contentsArea .quoteBox q::before{left: 0px; background-image: url('../images/quoteIcon01_1.png');}
+    .problemArea .contentsArea .quoteBox q::after{right: 0px; background-image: url('../images/quoteIcon02_1.png');}
 
     .problemArea .contentsArea .topImgBox.case01{background-image: url('../images/problem_BG01.png');}
     .problemArea .contentsArea .topImgBox.case02{background-image: url('../images/problem_BG04.png');}
     .problemArea .contentsArea .topImgBox.case03{background-image: url('../images/problem_BG05.png');}
-    .problemArea .contentsArea .topImgBox > div{padding-top: 55px;}
+    .problemArea .contentsArea .topImgBox > div{padding-top: 30px;}
+    .problemArea .contentsArea .topImgBox > div h3{max-width: 500px; margin-left: auto; margin-right: auto;}
     .problemArea .contentsArea .topImgBox > div h3:not(:last-child){margin-bottom: 100px;}
-    .problemArea .contentsArea .topImgBox .graphList{display: flex; flex-wrap: wrap; justify-content: center;}
-    .problemArea .contentsArea .topImgBox .graphList li{width: calc((100% - 50px) / 2); padding: 30px 40px; box-sizing: border-box; text-align: center; border-radius: 20px; box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.2);}
-    .problemArea .contentsArea .topImgBox .graphList li:nth-child(2n){margin-left: 50px; }
-    .problemArea .contentsArea .topImgBox .graphList li:not(:nth-child(-n + 2)){margin-top: 50px;}
-    .problemArea .contentsArea .topImgBox .graphList li .f_case01{line-height: 32px;}
+    .problemArea .contentsArea .topImgBox .graphList li{ padding: 30px 35px 25px; box-sizing: border-box; text-align: center; border-radius: 20px; box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.2);}
+    .problemArea .contentsArea .topImgBox .graphList li:not(:last-child){margin-bottom: 50px;}
+    .problemArea .contentsArea .topImgBox .graphList li img{width: 100%; margin-bottom: 20px;}
+    .problemArea .contentsArea .topImgBox .graphList li strong{display: block; line-height: 32px; margin-bottom: 15px;}
+    .problemArea .contentsArea .topImgBox .graphList li p{font-size: 22px; line-height: 1; font-weight: 700;}
 
     .problemArea .contentsArea .BGBox01{height: 520px; background: url('../images/problem_BG02.png') no-repeat center / cover; }
-    .problemArea .contentsArea .BGBox01 > div{height: 100%; display: flex; flex-direction: column; align-items: flex-start; justify-content: center; color: white;}
-    .problemArea .contentsArea .BGBox01 > div strong{display: inline-block; margin-bottom: 45px;}
+    .problemArea .contentsArea .BGBox01 > div{width: calc(100% - 60px); height: 100%; display: flex; flex-direction: column; align-items: flex-start; justify-content: center; color: white;}
+    .problemArea .contentsArea .BGBox01 > div strong{display: inline-block; margin-bottom: 50px;}
     .problemArea .contentsArea .BGBox01 > div strong::after{content: ''; display: block; width: 100%; height: 1px; background-color: rgba(255, 255, 255, 0.5); margin-top: 5px;}
+    .problemArea .contentsArea .BGBox01 > div p{font-size: 25px; line-height: 33px;}
     .problemArea .contentsArea .BGBox01 > div p:not(:last-child){margin-bottom: 35px;}
 
     .problemArea .contentsArea .imgBox{text-align: center;}
@@ -430,12 +432,13 @@
     .problemArea .contentsArea .imgBox strong::before{left: -55px; background-image: url('../images/quoteIcon01_2.png');}
     .problemArea .contentsArea .imgBox strong::after{right: -55px; background-image: url('../images/quoteIcon02_2.png');}
     .problemArea .contentsArea .imgBox p{font-size: 34px; font-weight: 300; margin-bottom: 80px;}
-    .problemArea .contentsArea .imgBox div{text-indent: -9999px; height: 616px; background: url('../images/problem_img01.png') no-repeat center;}
+    .problemArea .contentsArea .imgBox div{}
+    .problemArea .contentsArea .imgBox div img{width: 100%;}
 
-    .problemArea .contentsArea .BGBox02{height: 560px; background: #39bca5 ; position: relative;}
-    .problemArea .contentsArea .BGBox02::before{content: ''; position: absolute; left: 0; bottom: 0; width: 54.89%; height: 487px; background: url('../images/problem_BG03.png') no-repeat right center / cover; border: 8px 8px 0 0; border-style: solid; border-color: white;}
-    .problemArea .contentsArea .BGBox02 > div{height: 100%; }
-    .problemArea .contentsArea .BGBox02 > div > div{width: 420px; margin-left: auto; height: 100%; display: flex; flex-direction: column; justify-content: center; }
+    .problemArea .contentsArea .BGBox02{background: #39bca5 ; position: relative;}
+    .problemArea .contentsArea .BGBox02::after{content: ''; display: block;  width: 90%; height: 315px; background: url('../images/problem_BG03.png') no-repeat right bottom / cover; border-width: 8px 8px 0 0; border-style: solid; border-color: white;}
+    .problemArea .contentsArea .BGBox02 > div{width: calc(100% - 60px); height: 100%; }
+    .problemArea .contentsArea .BGBox02 > div > div{padding: 100px 0 80px;}
     .problemArea .contentsArea .BGBox02 > div > div p{font-size: 28px; line-height: 38px; font-weight: 500; color: white;}
     .problemArea .contentsArea .BGBox02 > div > div p:not(:last-child){margin-bottom: 40px;}
 
