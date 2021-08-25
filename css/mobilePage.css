@@ -132,8 +132,8 @@
     .subPage .borderBox{border-width: 1px 1px 1px 10px; border-color: #d6d6d6 #d6d6d6 #d6d6d6 #39bca5; border-style: solid; box-sizing: border-box;}
 
     /* 서브페이지 top img box */
-    .subPage .topImgBox{padding-top: 395px; background-repeat: no-repeat; background-position: center top;}
-    .subPage .topImgBox > div{max-width: 1045px; margin: 0 auto; background: white;}
+    .subPage .topImgBox{padding-top: 220px; background-repeat: no-repeat; background-position: center top; background-size: 640px;}
+    .subPage .topImgBox > div{max-width: 580px; margin: 0 auto; background: white;}
 
 
     /* 서브페이지 - 솔루션 */
@@ -334,24 +334,24 @@
 
     /* 서브페이지 - 기업소개 - 상시채용 */
     .company_employArea .contentsArea .topImgBox{background-image: url('../images/company_employBG.png'); text-align: center;}
-    .company_employArea .contentsArea .topImgBox > div{padding-top: 55px; margin-bottom: 50px; position: relative;}
+    .company_employArea .contentsArea .topImgBox > div{padding-top: 40px; margin-bottom: 60px; position: relative;}
     .company_employArea .contentsArea .topImgBox > div::before , .company_employArea .contentsArea .topImgBox > div::after{content: ''; position: absolute; top: 140px; width: 28px; height: 22px; background-repeat: no-repeat; background-size: cover; background-position: center;}
-    .company_employArea .contentsArea .topImgBox > div::before{left: -30px; background-image: url('../images/quoteIcon01_1.png');}
-    .company_employArea .contentsArea .topImgBox > div::after{right: -30px; background-image: url('../images/quoteIcon02_1.png');}
-    .company_employArea .contentsArea .topImgBox > div strong{display: block; margin-bottom: 45px;}
-    .company_employArea .contentsArea .topImgBox > div p{line-height: 32px; font-weight: 300;}
-    .company_employArea .contentsArea .topImgBox > div p:not(:last-of-type){margin-bottom: 40px;}
-    .company_employArea .contentsArea .topImgBox > ul::after{content: ''; display: block; clear: both;}
-    .company_employArea .contentsArea .topImgBox > ul{color: white; margin-bottom: 60px;}
-    .company_employArea .contentsArea .topImgBox > ul li{float: left; width: calc((100% - 30px) / 4); height: 180px; padding: 30px 0; border-radius: 20px; box-sizing: border-box; display: flex; flex-direction: column; justify-content: space-between;}
-    .company_employArea .contentsArea .topImgBox > ul li:not(:last-child){margin-right: 10px;}
+    .company_employArea .contentsArea .topImgBox > div::before{left: 0px; background-image: url('../images/quoteIcon01_1.png');}
+    .company_employArea .contentsArea .topImgBox > div::after{right: 0px; background-image: url('../images/quoteIcon02_1.png');}
+    .company_employArea .contentsArea .topImgBox > div strong{display: block; margin-bottom: 40px;}
+    .company_employArea .contentsArea .topImgBox > div p{font-size: 26px; line-height: 32px; font-weight: 300; width: 500px; margin:0 auto;}
+    .company_employArea .contentsArea .topImgBox > div p:not(:last-of-type){margin-bottom: 35px;}
+    .company_employArea .contentsArea .topImgBox > ul{color: white; margin-bottom: 100px;}
+    .company_employArea .contentsArea .topImgBox > ul li{ max-width: 290px; height: 180px; padding: 30px 0; border-radius: 20px; box-sizing: border-box; margin: 0 auto; display: flex; flex-direction: column; justify-content: space-between;}
+    .company_employArea .contentsArea .topImgBox > ul li:not(:last-child){margin-bottom: 10px;}
     .company_employArea .contentsArea .topImgBox > ul li:nth-child(1){background-color: #f15835;}
     .company_employArea .contentsArea .topImgBox > ul li:nth-child(2){background-color: #39bca5;}
     .company_employArea .contentsArea .topImgBox > ul li:nth-child(3){background-color: #f78e1d;}
     .company_employArea .contentsArea .topImgBox > ul li:nth-child(4){background-color: #888888;}
-    .company_employArea .contentsArea .topImgBox > p{line-height: 50px;}
+    .company_employArea .contentsArea .topImgBox > p{line-height: 50px; font-weight: 400;}
+    .company_employArea .contentsArea .topImgBox > p span{font-weight: 700;}
     .company_employArea .contentsArea .topImgBox > p:not(:last-of-type){margin-bottom: 50px;}
-    .company_employArea .contentsArea .topImgBox .listLink.case01{width: 380px; line-height: 70px; margin-top: 80px;}
+    .company_employArea .contentsArea .topImgBox .listLink.case01{width: 380px; line-height: 70px; margin-top: 100px;}
 
 
     /* 서브페이지 - 기업소개 - Contact Us */
