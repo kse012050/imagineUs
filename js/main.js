@@ -15,12 +15,32 @@ $(document).ready(function(){
     var scrollIdx = 0;
     var logoBlack;
     var menuBlack;
+    var touchStartX;
+    var touchStartY;
+    var touchEndX;
+    var touchEndY;
+    var touchCompareX;
+    var touchCompareY;
 
-    $('body.scrollPage').on('mousewheel touchmove',function(e){
+    $('body.scrollPage').on('touchstart',function(e){
+        touchStartX = e.changedTouches[0].clientX;
+        touchStartY = e.changedTouches[0].clientY;
+    })
+
+    $('body.scrollPage').on('mousewheel touchend',function(e){
         if($('html, body').is(':animated')){
             return;
         }
-        delta = e.originalEvent.wheelDelta;
+        console.log(e.type);
+        if(e.type == 'mousewheel'){
+            delta = e.originalEvent.wheelDelta;
+        }else if(e.type == 'touchend'){
+            touchCompareX = Math.abs(touchStartX - e.changedTouches[0].clientX);
+            touchCompareY = Math.abs(touchStartY - e.changedTouches[0].clientY);
+            if(touchCompareX < touchCompareY){
+                delta = e.changedTouches[0].clientY - touchStartY
+            }
+        }
         
         if(delta > 0 && scrollIdx > 0 && (scrollSelectorArray[scrollIdx].scrollTop() < 10)){
             scrollIdx--;
