@@ -369,11 +369,11 @@
 
 
     /* 서브페이지 - 임팩트 */
-    .impactArea .contentsArea .borderBox{height: 130px; display: flex; align-items: center; margin-bottom: 50px;}
-    .impactArea .contentsArea .borderBox strong{width: 480px; text-align: center; letter-spacing: 5px;}
-    .impactArea .contentsArea .borderBox p{font-weight: 700;}
+    .impactArea .contentsArea .borderBox{ padding: 50px 20px; margin-bottom: 50px;}
+    .impactArea .contentsArea .borderBox strong{display: block; text-align: center; letter-spacing: 5px; margin-bottom: 45px;}
+    .impactArea .contentsArea .borderBox p{font-weight: 700; letter-spacing: -1px;}
     .impactArea .contentsArea > p{text-align: center; margin-bottom: 70px;}
-    .impactArea .contentsArea .imgBox{text-indent: -9999px; height: 683px; background: url('../images/impactImg01.png') no-repeat center / cover; }
+    .impactArea .contentsArea .imgBox{text-indent: -9999px; padding-bottom: 113%; background: url('../images/m/impactImg01.png') no-repeat center / 100%; }
 
 
     /* 서브페이지 - 임팩트 - 기업사례*/
