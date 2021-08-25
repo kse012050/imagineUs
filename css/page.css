@@ -436,7 +436,7 @@
     /* 메인페이지 */
     [data-scroll="all"]{height: 100vh; background-repeat: no-repeat; background-position: center; background-size: cover; }
     [data-scroll="all"] > div{height: 100%;  display: flex; align-items: center; /* padding-top: 7.750rem; */ box-sizing: border-box; position: relative;}
-    [data-scroll="pc"]{padding-top: 5.625rem;}
+    [data-scroll="pc"]{padding-top: 5.625rem; height: 100vh; overflow: auto; box-sizing: border-box;}
 
     [data-scroll="all"]:nth-of-type(1){background-image: url('../images/main_BG01.png');}
     [data-scroll="all"]:nth-of-type(2){background-image: url('../images/main_BG02.png');}
