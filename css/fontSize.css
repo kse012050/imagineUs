@@ -1,0 +1,122 @@
+/* 메인 페이지 font */
+.mainPage .fontCase01_1{font-size: 71px; line-height: 81px;}
+.mainPage .fontCase01_2{font-size: 53px; line-height: 65px;}
+.mainPage [class ^= 'fontCase02']{font-size: 62px;}
+.mainPage .fontCase02_1{line-height: 83px;}
+.mainPage .fontCase02_2{line-height: 76px;}
+.mainPage [class ^= 'fontCase03']{font-size: 54px; line-height: 66px;}
+.mainPage [class ^= 'fontCase04']{font-size: 32px;}
+.mainPage .fontCase04_1{line-height: 40px;}
+.mainPage .fontCase04_1{line-height: 32px;}
+.mainPage .fontCase05_1{font-size: 35px; line-height: 46px;}
+.mainPage .fontCase05_2{font-size: 30px; line-height: 36px;}
+.mainPage [class ^= 'fontCase06']{font-size: 28px;;}
+.mainPage .fontCase06_1{line-height: 45px}
+.mainPage .fontCase06_2{line-height: 39px}
+.mainPage .fontCase07_1{font-size: 29px; line-height: 41px;}
+.mainPage .fontCase07_2{font-size: 26px; line-height: 36px;}
+.mainPage [class ^= 'fontCase08']{font-size: 22px; line-height: 28px;}
+
+/* 서브 페이지 font */
+
+.subPage [class ^= 'fontCase01']{font-size: 42px; line-height: 1;}
+.subPage [class ^= 'fontCase02']{font-size: 40px;}
+.subPage .fontCase02_1{line-height: 48px;}
+.subPage .fontCase02_2{line-height: 50px;}
+.subPage [class ^= 'fontCase03']{font-size: 36px; line-height: 1;}
+.subPage [class ^= 'fontCase04']{font-size: 35px;}
+.subPage .fontCase04_1{line-height: 1;}
+.subPage .fontCase04_2{line-height: 44px;}
+.subPage [class ^= 'fontCase05']{font-size: 34px; line-height: 49px;}
+.subPage [class ^= 'fontCase06']{font-size: 32px; line-height: 42px;}
+.subPage [class ^= 'fontCase07']{font-size: 30px; line-height: 40px;}
+.subPage [class ^= 'fontCase08']{font-size: 28px;}
+.subPage .fontCase08_1{line-height: 42px;}
+.subPage .fontCase08_2{line-height: 38px;}
+.subPage .fontCase08_3{line-height: 46px;}
+.subPage [class ^= 'fontCase09']{font-size: 27px; line-height: 33px;}
+.subPage [class ^= 'fontCase10']{font-size: 26px; line-height: 32px;}
+.subPage [class ^= 'fontCase11']{}
+.subPage .fontCase11_1{font-size: 25px; line-height: 33px;}
+.subPage .fontCase11_2{font-size: 24px; line-height: 38px;}
+.subPage [class ^= 'fontCase12']{font-size: 22px;}
+.subPage .fontCase12_1{line-height: 38px;}
+.subPage .fontCase12_2{line-height: 34px;}
+.subPage .fontCase12_3{line-height: 31px;}
+.subPage .fontCase12_4{line-height: 26px;}
+.subPage [class ^= 'fontCase13']{font-size: 21px;}
+.subPage .fontCase13_1{line-height: 34px;}
+.subPage .fontCase13_2{line-height: 32px;}
+.subPage .fontCase13_3{line-height: 31px;}
+.subPage .fontCase13_4{line-height: 28px;}
+.subPage [class ^= 'fontCase14']{font-size: 20px;}
+.subPage .fontCase14_1{line-height: 32px;}
+.subPage .fontCase14_2{line-height: 28px;}
+.subPage [class ^= 'fontCase15']{font-size: 18px; line-height:1;}
+.subPage [class ^= 'fontCase16']{font-size: 17px; line-height: 25px;}
+.subPage .fontCase16_1{}
+.subPage .fontCase16_2{}
+.subPage [class ^= 'fontCase17']{font-size: 15px; line-height: 32px;}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------ */
+
+
+/* 메인 페이지 font */
+ .mainPage .fontCase01_1{font-size: 4.438rem; line-height: 5.063rem;}
+ .mainPage .fontCase01_2{font-size: 3.313rem; line-height: 4.063rem;}
+ .mainPage [class ^= 'fontCase02']{font-size: 3.875rem;}
+ .mainPage .fontCase02_1{line-height: 5.188rem;}
+ .mainPage .fontCase02_2{line-height: 4.750rem;}
+ .mainPage [class ^= 'fontCase03']{font-size: 3.375rem; line-height: 4.125rem;}
+ .mainPage [class ^= 'fontCase04']{font-size: 2.000rem;}
+ .mainPage .fontCase04_1{line-height: 2.500rem;}
+ .mainPage .fontCase04_1{line-height: 2.000rem;}
+ .mainPage .fontCase05_1{font-size: 2.188rem; line-height: 2.875rem;}
+ .mainPage .fontCase05_2{font-size: 1.875rem; line-height: 2.250rem;}
+ .mainPage [class ^= 'fontCase06']{font-size: 1.750rem;}
+ .mainPage .fontCase06_1{line-height: 2.813rem;}
+ .mainPage .fontCase06_2{line-height: 2.438rem;}
+ .mainPage .fontCase07_1{font-size: 1.813rem; line-height: 2.563rem;}
+ .mainPage .fontCase07_2{font-size: 1.625rem; line-height: 2.250rem;}
+ .mainPage [class ^= 'fontCase08']{font-size: 1.375rem; line-height: 1.750rem;}
+
+/* 서브 페이지 font */
+
+ .subPage [class ^= 'fontCase01']{font-size: 2.625rem; line-height: 1;}
+ .subPage [class ^= 'fontCase02']{font-size: 2.500rem;}
+ .subPage .fontCase02_1{line-height: 3.000rem;}
+ .subPage .fontCase02_2{line-height: 3.125rem;}
+ .subPage [class ^= 'fontCase03']{font-size: 2.250rem; line-height: 1;}
+ .subPage [class ^= 'fontCase04']{font-size: 2.188rem;}
+ .subPage .fontCase04_1{line-height: 1;}
+ .subPage .fontCase04_2{line-height: 2.750rem;}
+ .subPage [class ^= 'fontCase05']{font-size: 2.125rem; line-height: 3.063rem;}
+ .subPage [class ^= 'fontCase06']{font-size: 2.000rem; line-height: 2.625rem;}
+ .subPage [class ^= 'fontCase07']{font-size: 1.875rem; line-height: 2.500rem;}
+ .subPage [class ^= 'fontCase08']{font-size: 1.750rem;}
+ .subPage .fontCase08_1{line-height: 2.625rem;}
+ .subPage .fontCase08_2{line-height: 2.375rem;}
+ .subPage .fontCase08_3{line-height: 2.875rem;}
+ .subPage [class ^= 'fontCase09']{font-size: 1.688rem; line-height: 2.063rem;}
+ .subPage [class ^= 'fontCase10']{font-size: 1.625rem; line-height: 2.000rem;}
+ .subPage [class ^= 'fontCase11']{}
+ .subPage .fontCase11_1{font-size: 1.563rem; line-height: 2.063rem;}
+ .subPage .fontCase11_2{font-size: 1.500rem; line-height: 2.375rem;}
+ .subPage [class ^= 'fontCase12']{font-size: 1.375rem;}
+ .subPage .fontCase12_1{line-height: 2.375rem;}
+ .subPage .fontCase12_2{line-height: 2.125rem;}
+ .subPage .fontCase12_3{line-height: 1.938rem;}
+ .subPage .fontCase12_4{line-height: 1.625rem;}
+ .subPage [class ^= 'fontCase13']{font-size: 1.313rem;}
+ .subPage .fontCase13_1{line-height: 2.125rem;}
+ .subPage .fontCase13_2{line-height: 2.000rem;}
+ .subPage .fontCase13_3{line-height: 1.938rem;}
+ .subPage .fontCase13_4{line-height: 1.750rem;}
+ .subPage [class ^= 'fontCase14']{font-size: 1.250rem;}
+ .subPage .fontCase14_1{line-height: 2.000rem;}
+ .subPage .fontCase14_2{line-height: 1.750rem;}
+ .subPage [class ^= 'fontCase15']{font-size: 1.125rem; line-height:1;}
+ .subPage [class ^= 'fontCase16']{font-size: 1.063rem; line-height: 1.563rem;}
+ .subPage .fontCase16_1{}
+ .subPage .fontCase16_2{}
+ .subPage [class ^= 'fontCase17']{font-size: 0.938rem; line-height: 2.000rem;}
